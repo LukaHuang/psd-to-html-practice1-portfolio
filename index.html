@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Steven's Porfolio</title>
-
+  <link rel="stylesheet" type="text/css" href="style/site.css" media="all">
 </head>
 <body>
-  <nav>
+  <nav class>
     <div class="container">
-      <ul class="navlist">
-        <li>home</li>
-        <li>work</li>
-        <li>about</li>
-        <li>contact</li>
+      <ul class="nav-list">
+        <li><a href="#">home</a></li>
+        <li><a href="#">work</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
       </ul>
       <ul class="social-list">
-        <li><img src="none" alt="youtube"></li>
-        <li><img src="none" alt="twitter"></li>
-        <li><img src="none" alt="facebook"></li>
+        <li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+        <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+        <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
       </ul>
     </div>
   </nav>
 
-  <header>
+  <header class="container clear">
       <h1>My Design Porfolio</h1>
       <h3>DESIGN SOLUTIONS FOR YOUR BUSINESS</h3>
   </header>
@@ -30,20 +30,20 @@
     <div class="container">
       <ul class="feature-list">
         <li>
-          <a href="  ">
-            <img src="/" alt="Web Design">
+          <a href="#">
+            <img src="images/web.png" alt="Web Design">
             <h3>Web Design</h3>
           </a>
         </li>
         <li>
-          <a href="  ">
-            <img src="/" alt="Graphic Design">
+          <a href="#">
+            <img src="images/graphic.png" alt="Graphic Design">
             <h3>Graphic Design</h3>
           </a>
         </li>
         <li>
-          <a href="">
-            <img src="/" alt="Video Production">
+          <a href="#">
+            <img src="images/video.png" alt="Video Production">
             <h3>Video Production</h3>
           </a>
         </li>
@@ -63,25 +63,25 @@
           <li class="port-laptops">
             <span>
               <a href="#"></a>
-              <img src="" alt="">
+              <img src="#" alt="">
             </span>
           </li>
           <li class="port-acme">
             <span>
               <a href="#"></a>
-              <img src="" alt="">
+              <img src="#" alt="">
             </span>
           </li>
           <li class="port-demoreel">
             <span>
               <a href="#"></a>
-              <img src="" alt="">
+              <img src="#" alt="">
             </span>
           </li>
           <li class="port-logo">
             <span>
               <a href="#"></a>
-              <img src="" alt="">
+              <img src="#" alt="">
             </span>
           </li>
         </ul>
@@ -109,11 +109,13 @@
         <form action="none">
           <h3>Register for Updates</h3>
           <input type="text" id="name" placeholder="name" />
-          <input type="text" id="email" placeholder="Email@">
+          <input type="text" id="email" placeholder="Email@address.com">
           <button type="submit"></button>
         </form>
       </div>  <!-- one-third -->
     </div> <!-- container -->
+    <span class="copyright">&copy;copyright 2014, My Porfolio Design</span>
   </footer>
+  <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+h1 {
+  color: #777777;
+  font: "Myriad Pro";
+  font-size: 42px;
+}
+
+h2 {
+  color: #e46965;
+  font-size: 42px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/*************************************
+               Header
+**************************************/
+
+header h1, h3{
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 33px;
+}
+
+header h3{
+  color: #e46965;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+nav {
+  background-color: #dadada;
+  height: 40px;
+  color: #ffffff;
+}
+
+.nav-list {
+  float: left;
+  font-family: "Arial Bold";
+}
+
+.nav-list li{
+  float: left;
+  list-style: none;
+}
+
+.nav-list li{
+  float: left;
+}
+
+.nav-list li a{
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 11px;
+  margin: 11px 20px 0 20px;
+}
+
+.nav-list :first-child{
+  padding-left: 0;
+}
+
+.nav-list :last-child{
+  padding-right: 0;
+}
+
+.social-list {
+  float: right;
+  margin-top:6px;
+}
+
+.social-list li{
+  float: left;
+  list-style: none;
+}
+
+.social-list li a{
+  margin-left: 20px;
+}
+
+/*************************************
+               feature
+**************************************/
+
+.feature {
+  background-color: #363636;
+}
+
+.feature h3{
+  color: #fff;
+  text-decoration: none;
+}
